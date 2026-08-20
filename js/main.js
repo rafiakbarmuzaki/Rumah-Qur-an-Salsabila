@@ -89,7 +89,7 @@ function setupImagePlaceholders() {
       const wrapper = img.parentElement;
       wrapper.classList.add('img-missing');
       const fileName = img.getAttribute('src').split('/').pop();
-      wrapper.setAttribute('data-placeholder-label', `Ganti gambar ini:\n${fileName}`);
+      wrapper.setAttribute('data-placeholder-label', `\n${fileName}`);
     });
   });
 }
